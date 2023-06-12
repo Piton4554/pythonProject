@@ -17,3 +17,5 @@ for i in range(x):
 
 for i in a:
     print("".join(i))
+
+print()
