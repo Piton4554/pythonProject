@@ -10,5 +10,6 @@ def check():
         print("D")
 
 
-a = ["x.o", "xx.", "oo."]
+
+a = ["x.o", "xx.", "ooo"]
 check()
