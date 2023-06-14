@@ -15,3 +15,4 @@ print(b)
 
 c = [0] * 3
 c = [[0] * 4 for i in range(len(c))]
+print(c)
