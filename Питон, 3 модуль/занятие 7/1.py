@@ -5,7 +5,10 @@ def sortt():
     for i in range(1, len(a)):
         e = a[i]
         j = i - 1
+        if e == 0:
+            a[j-1] = a[j]
 
+            continue
         while j >= 0 and e < a[j]:
             a[j + 1] = a[j]
             j -= 1
