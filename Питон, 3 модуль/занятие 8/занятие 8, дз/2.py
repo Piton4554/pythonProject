@@ -14,4 +14,4 @@ else:
     for i in range(3, somnitelno + 1):
         lst[i] = (lst[i - 1] + lst[i - 2] + lst[i - 3])
 
-print(lst[somnitelno - 1])
+print(lst[somnitelno])

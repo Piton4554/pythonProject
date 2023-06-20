@@ -6,7 +6,7 @@ print(buy)
 seil = [0] * (n + 1)
 seil[1] = buy[1]
 for i in range(2, n + 1):
-    seil[i] = buy[i] + (min(buy[i - 1], buy[i - 2]))
+    seil[i] = buy[i] + min(buy[i - 1], buy[i - 2])
 
 print(seil)
 m = 0

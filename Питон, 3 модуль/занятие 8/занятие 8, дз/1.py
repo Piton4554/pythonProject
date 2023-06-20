@@ -5,9 +5,9 @@ def capibara(horo):
     x[2] = 2
 
     for i in range(3, horo + 1):
-        x[i] = ((x[i - 1] + x[i - 2]) + 1)
+        x[i] = ((x[i - 1] + x[i - 2]) + x[i - 3])
     print(x)
     return x[horo]
 
 
-print(capibara(4))
+print(capibara(70))
